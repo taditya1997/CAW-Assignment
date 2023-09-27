@@ -6,13 +6,22 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+    container: {
+      center: true,
+      padding: "2rem",
+      screens: {
+        "2xl": "1400px",
       },
     },
+    extend: {
+      spacing: {
+
+        30: "1.875rem",
+        60: "3.75rem",
+        120: "7.5rem",
+
+      },
+    }
   },
   plugins: [],
 }

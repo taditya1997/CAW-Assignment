@@ -9,15 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "@reduxjs/toolkit": "^1.9.6",
+    "@tanstack/react-table": "^8.10.3",
+    "clsx": "^2.0.0",
+    "lucide-react": "^0.279.0",
+    "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "react-redux": "^8.1.2",
+    "react-table": "^7.8.0",
+    "tailwind-merge": "^1.14.0"
   },
   "devDependencies": {
     "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest"
   }
 }
